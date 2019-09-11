@@ -1,8 +1,11 @@
 <% provide(:title, "Home") %>
-
-<h1>Hop Blog</h1>
-<p>Welcome to my blog. This is the first blog of me
-	<br>Facebook: <a href="https://www.facebook.com/vunguyen.duchop"> Vũ Nguyễn Đức Hợp </a>
-	<br>Gmail: hopnd98@gmail.com
-	<br>Instagam: vunguyen.duchop
-</p>
+<div class="center jumbotron">
+   <h1>Welcome to my blog</h1>
+   <h2>This is the first blog of me</h2>
+   <p>
+	 <br>Facebook: <a href="https://www.facebook.com/vunguyen.duchop"> Vũ Nguyễn Đức Hợp </a>
+	 <br>Gmail: hopnd98@gmail.com
+	 <br>Instagam: vunguyen.duchop
+   </p>
+   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
